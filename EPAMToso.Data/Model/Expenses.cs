@@ -20,5 +20,18 @@ namespace EPAMToso.Data.Model
 
       [DataType(DataType.Currency)]
       public decimal ExpenseAmount { get; set; }
+
+      public int HouseID { get; set; }
+
+      public int RoomieID { get; set; }
+
+      //nav properties
+      public virtual House House { get; set; }
+
+      public Roomie Roomie { get; set; }
+
+
+
+      
     }
 }
