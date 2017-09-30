@@ -20,7 +20,7 @@ namespace EPAMToso.Controllers
         [HttpGet("{id}")]
         public string Get(int id)
         {
-            return "value";
+            return "value"; //test
         }
 
         // POST api/values
